@@ -208,7 +208,7 @@ footer a {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 250px) {
+@media (min-width: 300px) {
     nav h1 {
         display: none;
     }
@@ -238,7 +238,7 @@ footer a {
 
     /* body { background-color: orange; } */
     .profilePicture {
-        min-height: 200px;
+        min-height: 190px;
     }
 
     nav h1 {
@@ -268,7 +268,7 @@ footer a {
 @media (min-width: 768px) {
     /* body { background-color: green; } */
     .profilePicture {
-        min-height: 280px;
+        min-height: 290px;
     }
 
     nav h1 {
@@ -289,7 +289,7 @@ footer a {
 @media (min-width: 992px) {
     /* body { background-color: blue; } */
     .profilePicture {
-        min-height: 350px;
+        min-height: 360px;
     }
 
     nav h1 {
@@ -310,7 +310,7 @@ footer a {
 @media (min-width: 1200px) {
     /* body { background-color: purple; } */
     .profilePicture {
-        min-height: 420px;
+        min-height: 480px;
     }
 
     nav h1 {
