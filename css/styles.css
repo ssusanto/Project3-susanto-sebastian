@@ -195,15 +195,28 @@ figcaption {
 }
 
 /* CONTACT FORM */
+
+.form h2 {
+    text-align: center;
+}
+
 /* CODE FROM W3SCHOOL */
 /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-    width: 100%; /* Full width */
-    padding: 12px; /* Some padding */ 
-    box-sizing: border-box; /* Make sure that padding and width stays in place */
-    margin-top: 6px; /* Add a top margin */
-    margin-bottom: 16px; /* Bottom margin */
-    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    /* Full width */
+    padding: 12px;
+    /* Some padding */
+    box-sizing: border-box;
+    /* Make sure that padding and width stays in place */
+    margin-top: 6px;
+    /* Add a top margin */
+    margin-bottom: 16px;
+    /* Bottom margin */
+    resize: vertical
+        /* Allow the user to vertically resize the textarea (not horizontally) */
 }
 
 /* Style the submit button with a specific background color etc */
@@ -258,6 +271,7 @@ footer a {
     }
 
 }
+
 /* X-Small devices (portait phones, less than 576px) */
 /* All styles up to this point in the stylesheet are for X-Small */
 
@@ -279,7 +293,7 @@ footer a {
 
     nav ul {
         justify-content: flex-end;
-        align-items: center; 
+        align-items: center;
     }
 
     h2 {
@@ -294,6 +308,7 @@ footer a {
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
     /* body { background-color: green; } */
     .profilePicture {
         min-height: 290px;
@@ -307,7 +322,7 @@ footer a {
     h2 {
         font-size: 20px;
     }
-    
+
     p {
         font-size: 16px;
     }
@@ -315,6 +330,7 @@ footer a {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+
     /* body { background-color: blue; } */
     .profilePicture {
         min-height: 360px;
@@ -328,7 +344,7 @@ footer a {
     h2 {
         font-size: 22px;
     }
-    
+
     p {
         font-size: 17px;
     }
@@ -336,6 +352,7 @@ footer a {
 
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+
     /* body { background-color: purple; } */
     .profilePicture {
         min-height: 480px;
@@ -349,7 +366,7 @@ footer a {
     h2 {
         font-size: 24px;
     }
-    
+
     p {
         font-size: 19px;
     }
